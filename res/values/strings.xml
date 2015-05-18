@@ -15,11 +15,12 @@
 完成微博项目</string>
     <string name="whats_new_yesterday">昨天</string>
     <string name="whats_new_daybeforeyesterday">20</string>
-<string name="whats_new_march">11月</string>
-<string name="whats_new_title6">"在\"乐享微博\"，
+    <string name="whats_new_march">11月</string>
+    <string name="whats_new_title6">"在\"乐享微博\"，
 你可以了解朋友们的生活"</string>
-<string name="whats_new_title7_01">乐享微博，</string>
-<string name="whats_new_title7_02">你的心声，世界的回声</string>
-<string name="Forgetpassword">忘记密码</string>
+    <string name="whats_new_title7_01">乐享微博，</string>
+    <string name="whats_new_title7_02">你的心声，世界的回声</string>
+    <string name="Forgetpassword">忘记密码</string>
+    <string name="title_activity_sign_in">Sign_inActivity</string>
 
 </resources>
