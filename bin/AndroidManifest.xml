@@ -12,13 +12,12 @@
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@android:style/Theme.NoTitleBar"  >
         <activity
             android:name="com.stx.lexiang.AppStart"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar" 
-            >
+            android:theme="@android:style/Theme.NoTitleBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,7 +27,12 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_sign_in"
-            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
             android:screenOrientation="portrait" >
         </activity>
     </application>

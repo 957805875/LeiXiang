@@ -15,13 +15,14 @@ public class AppStart extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_start);
 		new Handler().postDelayed(new Runnable(){
+			//跳转到登录界面
 			@Override
 			public void run(){
 				Intent intent = new Intent (AppStart.this,LoginActivity.class);			
 				startActivity(intent);			
 				AppStart.this.finish();
 			}
-		}, 1000);
+		}, 1000);//设定时间
 	}
 
 }

@@ -22,5 +22,9 @@
     <string name="whats_new_title7_02">你的心声，世界的回声</string>
     <string name="Forgetpassword">忘记密码</string>
     <string name="title_activity_sign_in">Sign_inActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="register">注册</string>
 
 </resources>

@@ -53,61 +53,74 @@ public final class R {
         public static final int lo_bg=0x7f020008;
         public static final int lo_bg1=0x7f020009;
         public static final int lock=0x7f02000a;
-        public static final int login_zhuce=0x7f02000b;
-        public static final int login_zhuce1=0x7f02000c;
-        public static final int logo=0x7f02000d;
-        public static final int person=0x7f02000e;
-        public static final int servlet=0x7f02000f;
-        public static final int user=0x7f020010;
-        public static final int welcom=0x7f020011;
-        public static final int welcome6=0x7f020012;
-        public static final int welcome7=0x7f020013;
-        public static final int welcome_image1=0x7f020014;
-        public static final int welcome_image4=0x7f020015;
-        public static final int welcome_image5=0x7f020016;
-        public static final int whats_new_03_01=0x7f020017;
-        public static final int whats_new_bg_01=0x7f020018;
-        public static final int whats_new_bg_04=0x7f020019;
-        public static final int whats_new_bg_06=0x7f02001a;
-        public static final int whats_new_start_btn=0x7f02001b;
-        public static final int whats_new_start_btn_normal=0x7f02001c;
-        public static final int whats_new_start_btn_pressed=0x7f02001d;
-        public static final int whatsnew_left=0x7f02001e;
-        public static final int whatsnew_right=0x7f02001f;
-        public static final int xsearch_loading=0x7f020020;
+        public static final int login_error_icon=0x7f02000b;
+        public static final int login_rigister=0x7f02000c;
+        public static final int login_zhuce=0x7f02000d;
+        public static final int login_zhuce1=0x7f02000e;
+        public static final int logo=0x7f02000f;
+        public static final int mm_title_back_focused=0x7f020010;
+        public static final int mm_title_back_normal=0x7f020011;
+        public static final int mm_title_back_pressed=0x7f020012;
+        public static final int person=0x7f020013;
+        public static final int servlet=0x7f020014;
+        public static final int title_bar=0x7f020015;
+        public static final int title_btn_back=0x7f020016;
+        public static final int user=0x7f020017;
+        public static final int welcom=0x7f020018;
+        public static final int welcome6=0x7f020019;
+        public static final int welcome7=0x7f02001a;
+        public static final int welcome_image1=0x7f02001b;
+        public static final int welcome_image4=0x7f02001c;
+        public static final int welcome_image5=0x7f02001d;
+        public static final int whats_new_03_01=0x7f02001e;
+        public static final int whats_new_bg_01=0x7f02001f;
+        public static final int whats_new_bg_04=0x7f020020;
+        public static final int whats_new_bg_06=0x7f020021;
+        public static final int whats_new_start_btn=0x7f020022;
+        public static final int whats_new_start_btn_normal=0x7f020023;
+        public static final int whats_new_start_btn_pressed=0x7f020024;
+        public static final int whatsnew_left=0x7f020025;
+        public static final int whatsnew_right=0x7f020026;
+        public static final int xsearch_loading=0x7f020027;
     }
     public static final class id {
-        public static final int RelativeLayout1=0x7f090008;
-        public static final int action_settings=0x7f090011;
+        public static final int RelativeLayout1=0x7f09000c;
+        public static final int action_settings=0x7f090015;
         public static final int btn_yonghu_zhuce=0x7f090004;
-        public static final int image1=0x7f090010;
-        public static final int imageView1=0x7f090009;
+        public static final int button1=0x7f09000b;
+        public static final int image1=0x7f090014;
+        public static final int imageView1=0x7f09000d;
         public static final int image_icon=0x7f090006;
         public static final int linearLayout1=0x7f090000;
         public static final int login_login_btn=0x7f090003;
         public static final int login_passwd_edit=0x7f090002;
         public static final int login_user_edit=0x7f090001;
+        public static final int radioGroup1=0x7f090008;
+        public static final int radioGroup2=0x7f090009;
+        public static final int radioGroup3=0x7f09000a;
         public static final int textView1=0x7f090005;
         public static final int textView2=0x7f090007;
-        public static final int textView3=0x7f09000a;
-        public static final int title_tv=0x7f09000f;
-        public static final int whats_new_seven_bg_ll=0x7f09000b;
-        public static final int whats_new_start_btn=0x7f09000e;
-        public static final int whats_new_title1_tv=0x7f09000c;
-        public static final int whats_new_title2_tv=0x7f09000d;
+        public static final int textView3=0x7f09000e;
+        public static final int title_tv=0x7f090013;
+        public static final int whats_new_seven_bg_ll=0x7f09000f;
+        public static final int whats_new_start_btn=0x7f090012;
+        public static final int whats_new_title1_tv=0x7f090010;
+        public static final int whats_new_title2_tv=0x7f090011;
     }
     public static final class layout {
         public static final int activity_login=0x7f030000;
-        public static final int activity_start=0x7f030001;
-        public static final int layout_line=0x7f030002;
-        public static final int whats_news_gallery_four=0x7f030003;
-        public static final int whats_news_gallery_one=0x7f030004;
-        public static final int whats_news_gallery_three=0x7f030005;
-        public static final int whats_news_gallery_two=0x7f030006;
+        public static final int activity_register=0x7f030001;
+        public static final int activity_start=0x7f030002;
+        public static final int layout_line=0x7f030003;
+        public static final int whats_news_gallery_four=0x7f030004;
+        public static final int whats_news_gallery_one=0x7f030005;
+        public static final int whats_news_gallery_three=0x7f030006;
+        public static final int whats_news_gallery_two=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f080000;
-        public static final int sign_in=0x7f080001;
+        public static final int register=0x7f080001;
+        public static final int sign_in=0x7f080002;
     }
     public static final class string {
         public static final int Forgetpassword=0x7f060010;
@@ -116,6 +129,9 @@ public final class R {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
         public static final int hello_world=0x7f060002;
+        public static final int man=0x7f060013;
+        public static final int register=0x7f060015;
+        public static final int title_activity_register=0x7f060012;
         public static final int title_activity_sign_in=0x7f060011;
         public static final int whats_new_chongqing=0x7f060008;
         public static final int whats_new_daybeforeyesterday=0x7f06000b;
@@ -128,6 +144,7 @@ public final class R {
         public static final int whats_new_title7_02=0x7f06000f;
         public static final int whats_new_today=0x7f060007;
         public static final int whats_new_yesterday=0x7f06000a;
+        public static final int woman=0x7f060014;
     }
     public static final class style {
         public static final int AnimBottom=0x7f070008;
