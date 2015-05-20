@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/whats_new_bg_04"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_tv"
+        style="@style/whats_new_title"
+        android:text="@string/whats_new_title4" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="50dp" >
+
+        <LinearLayout
+            android:layout_width="90.0dip"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/whats_new_icon_title"
+                android:text="@string/whats_new_today" />
+
+            <TextView
+                style="@style/whats_new_icon_msg"
+                android:text="@string/whats_new_chongqing" />
+        </LinearLayout>
+        <!-- com.click369.cb.weibo.view.CircularImage -->
+
+        <ImageView
+            style="@style/whats_new_icon"
+            android:src="@drawable/whats_new_03_01" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/whats_new_title7"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10.0dip" >
+
+        <LinearLayout
+            android:layout_width="90.0dip"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/whats_new_icon_title"
+                android:text="@string/whats_new_yesterday" />
+
+            <TextView
+                style="@style/whats_new_icon_msg"
+                android:text="@string/whats_new_chongqing" />
+        </LinearLayout>
+
+        <ImageView
+            style="@style/whats_new_icon"
+            android:src="@drawable/welcome_image1" />
+
+        <ImageView
+            style="@style/whats_new_icon"
+            android:src="@drawable/welcome_image4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10.0dip" >
+
+        <LinearLayout
+            android:layout_width="90.0dip"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/whats_new_icon_title"
+                    android:text="@string/whats_new_daybeforeyesterday" />
+
+                <TextView
+                    style="@style/whats_new_icon_msg"
+                    android:paddingLeft="10.0dip"
+                    android:text="@string/whats_new_march" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/whats_new_icon_msg"
+                android:text="@string/whats_new_chongqing" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                style="@style/whats_new_icon"
+                android:src="@drawable/welcome_image5" />
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/imageView1"
+                android:background="@drawable/welcome6"
+                android:paddingBottom="5dp"
+                android:paddingRight="5dp" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/imageView1"
+                android:layout_below="@+id/image1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/imageView1"
+                android:background="@drawable/welcome7" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
