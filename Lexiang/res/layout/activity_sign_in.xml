@@ -56,7 +56,8 @@
             android:padding="10dp"
             android:text="登 录"
             android:textColor="#ffffff"
-            android:textStyle="bold" />
+            android:textStyle="bold" 
+            android:onClick="onPostExecute"/>
 
     </LinearLayout>
 
@@ -73,7 +74,8 @@
         android:text="注册"
         android:textColor="#939393"
         android:textSize="10sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:onClick="zhuce" />
 
     <TextView
         android:id="@+id/textView1"
