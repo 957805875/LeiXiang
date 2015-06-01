@@ -17,7 +17,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.stx.lexiang.MainActivity"
+            android:name="com.stx.lexiang.LoginActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" >
@@ -27,20 +27,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".Weibao"
-            android:label="@string/title_activity_weibao" >
-        </activity>
-        <activity
-            android:name=".WeiboActivity"
+            android:name="com.stx.denglu.WeiboActivity"
             android:label="@string/title_activity_weibo" >
         </activity>
         <activity
-            android:name=".RegistActivity"
+            android:name="com.stx.denglu.RegistActivity"
             android:label="@string/title_activity_regist" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

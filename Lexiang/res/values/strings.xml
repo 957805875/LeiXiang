@@ -9,5 +9,6 @@
     <string name="title_activity_weibao">乐享微博</string>
     <string name="title_activity_weibo">WeiboActivity</string>
     <string name="title_activity_regist">RegistActivity</string>
-
+ <string name="register">注册</string>
+    
 </resources>

@@ -56,8 +56,7 @@
             android:padding="10dp"
             android:text="登 录"
             android:textColor="#ffffff"
-            android:textStyle="bold" 
-            android:onClick="onPostExecute"/>
+            android:textStyle="bold"/>
 
     </LinearLayout>
 
